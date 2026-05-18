@@ -6,7 +6,7 @@ metadata:
 spec:
   description: "gitops-app 프로젝트"
   sourceRepos:
-    - "https://github.com/your-org/gitops-config"
+    - "https://github.com/edbdmss/gitops-config"
   destinations:
     - server: "https://kubernetes.default.svc"
       namespace: "gitops-app-*"
