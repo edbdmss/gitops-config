@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gitops-app
-          image: gitops-app
+          image: edbdmss/gitops-app
           ports:
             - containerPort: 80
           resources:
