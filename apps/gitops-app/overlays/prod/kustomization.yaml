@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../../base
+namespace: gitops-app-dev
+namePrefix: prod-
+images:
+  - name: edbdmss/gitops-app
+    newName: edbdmss/gitops-app
+    newTag: latest
+
+replicas:
+  - name: prod-gitops-app
+    count: 1
