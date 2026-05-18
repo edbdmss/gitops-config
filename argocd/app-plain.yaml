@@ -1,4 +1,4 @@
-# argocd/app-plain.yaml
+'''
 # ArgoCD Application 정의
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -24,3 +24,4 @@ spec:
     syncOptions:
       - CreateNamespace=true    # spring-boot-dev 없으면 자동 생성
       - ServerSideApply=true    # k8s 1.35 권장
+'''
