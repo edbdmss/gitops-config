@@ -7,7 +7,7 @@ namePrefix: dev-
 images:
 - name: edbdmss/gitops-app
   newName: edbdmss/gitops-app
-  newTag: sha-31a5312
+  newTag: sha-bd0168d
 
 replicas:
 - count: 1
