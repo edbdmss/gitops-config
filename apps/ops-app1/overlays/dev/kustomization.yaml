@@ -9,7 +9,7 @@ namespace: ops-app1-dev
 images:
 - name: ops-app1
   newName: edbdmss/ops-app1
-  newTag: sha-4b1b058
+  newTag: sha-9bbda9a
 
 patches:
 - patch: |-
